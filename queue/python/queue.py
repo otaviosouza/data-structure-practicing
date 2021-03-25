@@ -1,14 +1,17 @@
 # -*- coding: utf-8 -*-
 """
 queue.py - Queue Data Structure
+A linear structure which follows a particular order in which
+the operations are performed: First In First Out (FIFO).
 
------------------------------------------------------------------
-A simple study of queue data structure
-
+----------------------------------------------------------------------
 Author:
   Souza, Otávio
 
 History:
+  v1.0.1 2021-03-25, Otávio Souza:
+    - Description improvement for better understanding.
+  
   v1.0.0 2021-03-14, Otávio Souza:
     - Script creation.
 """

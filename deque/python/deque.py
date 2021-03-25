@@ -2,12 +2,18 @@
 # -*- coding: utf-8 -*-
 """
 deque.py - Deque Data Structure
+It is a generalized version of Queue data structure that allows
+insert and delete at both ends.
 
 -----------------------------------------------------------------
 Author:
   Souza, Otávio
 
 History:
+  v1.0.1 2021-03-25, Otávio Souza:
+    - Replace string output by fstring.
+    - Description improvement for better understanding.
+  
   v1.0.0 2021-03-15, Otávio Souza:
     - Script creation.
 """
@@ -66,7 +72,7 @@ d.push_back(40)  # 7 5 10 20 40
 
 d.show()  # 7 5 10 20 40
 
-print('\nfront: %d' % d.front())  # 7
+print(f'\nfront: {d.front()}')  # 7
 print(f'\nback: {d.back()}')  # 40
 
 # removal test

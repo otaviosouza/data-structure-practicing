@@ -1,11 +1,19 @@
 # -*- coding: utf-8 -*-
 '''
 linked_list.py - Linked list Data Structure
------------------------------------------------------------------
+A linear data structure in which the elements are not stored at
+contiguous memory locations. The elements in a linked list are linked
+using pointers.
+
+
+----------------------------------------------------------------------
 Author:
     Souza, Otávio
 
 History:
+    v1.0.1 2021-03-25, Otávio Souza:
+        - Replace string output by fstring.
+        - Description improvement for better understanding.
     v1.0.0 2021-03-15, Otávio Souza:
         - Script creation.
 '''
@@ -131,7 +139,7 @@ lista.push('Lilica', 4)  # inserção no final
 lista.show()
 lista.push('Sara', 2)  # inserção no meio
 lista.show()
-print('Tamanho da lista: %d\n' % lista.length())
+print(f'Tamanho da lista: {lista.length()}\n')
 
 # teste remoção
 lista.pop(0)  # remoção do início
@@ -140,4 +148,4 @@ lista.pop(2)  # remoção do meio
 lista.show()
 lista.pop(3)  # remoção do final
 lista.show()
-print('Tamanho da lista: %d\n' % lista.length())
+print(f'Tamanho da lista: {lista.length()}\n')

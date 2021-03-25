@@ -1,17 +1,21 @@
+#!python3
 # -*- coding: utf-8 -*-
 """
 bubblesort-asc.py - Bubble Sort Algorithm
+Ranks in ascending order a list of scrambled numbers.
 
 -----------------------------------------------------------------
-This script ranks in ascending order a list of scrambled numbers.
-
 Author:
   Souza, Otávio
 
 History:
+  v1.0.2 2021-03-25, Otávio Souza:
+    - Description improvement for better understanding.
+
   v1.0.1 2021-03-14, Otávio Souza:
-    - Swap improvement. Using two simultaneous assignments.
+    - Using two simultaneous assignments for swap improvement.
     - Correcting outer 'for'. Pass amount controller.
+
   v1.0.0 2021-03-14, Otávio Souza:
     - Script creation.
 """

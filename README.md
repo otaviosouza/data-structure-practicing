@@ -19,7 +19,7 @@ _Programming Languages:_ C, Python
 ## History
 
 - 2021-03-25, Otávio Souza.
-  - Reorganization of the repository
+  - Rearranging the repository.
 
 - 2021-03-16, Otávio Souza.
   - Adding new data structures.

@@ -1,3 +1,4 @@
+#!python3
 # -*- coding: utf-8 -*-
 """
 deque.py - Deque Data Structure
@@ -63,15 +64,14 @@ d.push_back(20)  # 5 10 20
 d.push_front(7)  # 7 5 10 20
 d.push_back(40)  # 7 5 10 20 40
 
-d.show()
+d.show()  # 7 5 10 20 40
 
 print('\nfront: %d' % d.front())  # 7
-print('\nback: %d' % d.back())  # 40
+print(f'\nback: {d.back()}')  # 40
 
 # removal test
-d.remove_back()  # 7 5 10 20
-d.show()
-d.remove_front()  # 5 10 20
-print('\nfront: %d' % d.front())  # 5
-print('\nback: %d' % d.back())  # 20
-d.show()
+d.remove_back()  # remove 40 | remaining 7 5 10 20
+d.remove_front()  # remove 7 | remaining 5 10 20
+d.show()  # 5 10 20
+print(f'\nfront: {d.front()}')  # 5
+print(f'\nback: {d.back()}')  # 20

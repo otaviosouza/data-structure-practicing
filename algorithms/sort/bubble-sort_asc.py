@@ -1,7 +1,7 @@
 #!python3
 # -*- coding: utf-8 -*-
 """
-bubblesort-asc.py - Bubble Sort Algorithm
+bubble-sort_asc.py - Bubble Sort Algorithm
 Ranks in ascending order a list of scrambled numbers.
 
 -----------------------------------------------------------------

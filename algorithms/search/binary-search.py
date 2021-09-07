@@ -1,15 +1,15 @@
-#!python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 binary-search.py - Binary Search Algorithm
 Implements a bynary search algorithm.
 
------------------------------------------------------------------
+------------------------------------------------------------
 Author:
   Souza, Otávio
 
-History:
-  v1.0.0 2021-03-14, Otávio Souza:
+Changelog:
+  v1.0 2021-03-14, Otávio Souza:
     - Script creation.
 """
 

@@ -1,22 +1,17 @@
 # Data Structure Practicing
 
-> A simple repository with some Algorithms and Data Structures practicing.
-
-## Purpose
-
-- Practice of the algorithms and data structure in _C Language_ of Uninter's classes (Data Structure).
-- Python recoding for study and practice purposes.
-- Study of Android APP [_Algorithms Explained and Animated_](http://algorithm.wiki/).
+> Repository with Algorithms and Data Structures practicing.
 
 ## Dev Environment
 
-_Guest OS:_ Linux Mint 19.3
+*Code Editor*: Visual Studio Code
 
-_Code Editor:_ Visual Studio Code
+*Programming Languages*: C, Python
 
-_Programming Languages:_ C, Python
+## Changelog
 
-## History
+- 2021-09-07, Otávio Souza.
+  - Binary Search Tree.
 
 - 2021-03-25, Otávio Souza.
   - Rearranging the repository.
@@ -25,8 +20,11 @@ _Programming Languages:_ C, Python
   - Adding new data structures.
 
 - 2021-03-15, Otávio Souza.
-  - Add bubblesort-asc(dot)py.
-  - Add README and gitignore.
+  - Add
+    - Python:
+      - bubblesort-asc.
+    - README
+    - gitignore.
 
 - 2021-03-14, Otávio Souza
   - First commit.

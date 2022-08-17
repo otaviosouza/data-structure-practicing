@@ -2,29 +2,32 @@
 
 > Repository with Algorithms and Data Structures practicing.
 
-## Dev Environment
+## Programming Languages
 
-*Code Editor*: Visual Studio Code
-
-*Programming Languages*: C, Python
+- C
+- C++
+- Python
 
 ## Changelog
 
-- 2021-09-07, Otávio Souza.
+- 2022-08-17
+  - Reformatting README
+
+- 2021-09-07
   - Binary Search Tree.
 
-- 2021-03-25, Otávio Souza.
+- 2021-03-25
   - Rearranging the repository.
 
-- 2021-03-16, Otávio Souza.
+- 2021-03-16
   - Adding new data structures.
 
-- 2021-03-15, Otávio Souza.
+- 2021-03-15
   - Add
     - Python:
       - bubblesort-asc.
     - README
     - gitignore.
 
-- 2021-03-14, Otávio Souza
+- 2021-03-14
   - First commit.
